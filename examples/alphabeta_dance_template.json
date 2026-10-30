@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "project": "AlphaBeta Studios \u00e2\u20ac\u201d Full-Body Dance Template",
+  "global_prompt": "Original fictional adult woman in a cobalt-blue athletic jacket, black relaxed trousers, and white trainers. Full body from head to shoes remains visible at all times in the same warm wood-floor studio. Photoreal live-action motion, stable recognizable face, consistent adult proportions, natural hands and feet, stable costume, soft studio lighting, continuous screen direction. This is an original non-sexual dance performance.",
+  "negative_prompt": "cropped feet, cropped head, close-up, camera cut, duplicate person, identity change, face morphing, costume change, flicker, text, logos, watermark, sexualized pose",
+  "defaults": {
+    "first_image": "H3/alpha_original_dance_source_still_v1.png",
+    "last_image": "H3/alpha_original_dance_source_still_v1.png",
+    "frames": 124,
+    "fps": 24,
+    "seed": 20261029
+  },
+  "scenes": [
+    {
+      "id": "arrival",
+      "title": "Arrival",
+      "prompt": "Minute one: a calm full-body dance introduction. The performer stays centered in a wide full-body frame, finds the beat through relaxed weight shifts, shoulder rolls, and simple arm phrasing. The camera remains a steady wide studio observation.",
+      "direction": {
+        "shot": "Wide establishing shot",
+        "camera": "Wide-angle lens, deep focus",
+        "light": "Soft window light",
+        "look": "Natural documentary color"
+      },
+      "clips": [
+        {
+          "prompt": "0:00\u00e2\u20ac\u201c0:12: begin still, inhale, then start a gentle right-left weight shift with a relaxed smile."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "0:12\u00e2\u20ac\u201c0:24: add a small shoulder roll and an open-hand arm sweep while keeping both feet planted and visible."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "0:24\u00e2\u20ac\u201c0:36: step forward one pace, step back one pace, settle into an easy groove without leaving the wide frame."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "0:36\u00e2\u20ac\u201c0:48: trace a restrained half-circle with the forearms, then return hands naturally to the sides."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "0:48\u00e2\u20ac\u201c1:00: finish the introduction with two clean side steps and a balanced ready stance for the next phrase."
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "id": "foundation",
+      "title": "Foundation",
+      "prompt": "Minute two: establish a repeatable full-body groove. The same performer keeps a grounded rhythm with side steps, heel-toe accents, and coordinated arm patterns. Preserve the wide head-to-shoes composition and unbroken studio geography.",
+      "direction": {
+        "shot": "Wide establishing shot",
+        "camera": "Wide-angle lens, deep focus",
+        "light": "Soft window light",
+        "look": "Natural documentary color"
+      },
+      "clips": [
+        {
+          "prompt": "1:00\u00e2\u20ac\u201c1:12: start the foundation phrase with four measured side steps, arms relaxed then opening on the fourth beat."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "1:12\u00e2\u20ac\u201c1:24: add a heel-toe accent on each side, keeping knees soft and motion athletic but modest."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "1:24\u00e2\u20ac\u201c1:36: cross one forearm over the other, open both arms, then return to the steady side-step rhythm."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "1:36\u00e2\u20ac\u201c1:48: repeat the groove with a small torso sway and a controlled quarter turn before returning front."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "1:48\u00e2\u20ac\u201c2:00: land facing camera in the same full-body stance, clearly marking the transition into travel."
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "prompt": "Minute three: travel across the same studio without breaking continuity. The performer uses modest diagonal steps, a controlled turn, and returns toward center. Keep her entirely in the wide full-body frame; the camera is locked and does not invent a new angle.",
+      "direction": {
+        "shot": "Wide establishing shot",
+        "camera": "Wide-angle lens, deep focus",
+        "light": "Soft window light",
+        "look": "Natural documentary color"
+      },
+      "clips": [
+        {
+          "prompt": "2:00\u00e2\u20ac\u201c2:12: travel two small steps diagonally toward screen right while maintaining eye line and full-body visibility."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "2:12\u00e2\u20ac\u201c2:24: answer with two small diagonal steps back toward center and a rhythmic outward arm gesture."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "2:24\u00e2\u20ac\u201c2:36: perform one controlled half turn, let jacket and hair move naturally, and end facing the camera again."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "2:36\u00e2\u20ac\u201c2:48: use a low-impact step-touch phrase from screen left to center, never moving out of the established studio frame."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "2:48\u00e2\u20ac\u201c3:00: return to center with a clear two-beat stop, readying a more energetic but still controlled phrase."
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "id": "energy_lift",
+      "title": "Energy Lift",
+      "prompt": "Minute four: raise energy through clean, nonsexual athletic dance movement. The performer increases tempo with arm accents, light bounces, and compact turns, while identity, outfit, lighting, and full-body framing remain fixed.",
+      "direction": {
+        "shot": "Wide establishing shot",
+        "camera": "Wide-angle lens, deep focus",
+        "light": "Soft window light",
+        "look": "Natural documentary color"
+      },
+      "clips": [
+        {
+          "prompt": "3:00\u00e2\u20ac\u201c3:12: lift energy with alternating arm punches at chest height and soft athletic bounces through the legs."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "3:12\u00e2\u20ac\u201c3:24: make a compact two-step turn, staying upright and returning immediately to the camera-facing groove."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "3:24\u00e2\u20ac\u201c3:36: perform a clear four-count step, clap once at shoulder height, then continue naturally without text or props."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "3:36\u00e2\u20ac\u201c3:48: repeat the established rhythm with stronger arm lines and a single controlled pivot, both shoes visible."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "3:48\u00e2\u20ac\u201c4:00: resolve the high-energy phrase into a steady centered groove and a visible breath before finale."
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "id": "finale",
+      "title": "Finale",
+      "prompt": "Minute five: resolve the dance with confident callbacks to earlier side steps, turn, arm sweep, and a calm finish. Maintain the same adult performer, blue jacket, studio, wide full-body camera, and natural pacing throughout.",
+      "direction": {
+        "shot": "Wide establishing shot",
+        "camera": "Wide-angle lens, deep focus",
+        "light": "Soft window light",
+        "look": "Natural documentary color"
+      },
+      "clips": [
+        {
+          "prompt": "4:00\u00e2\u20ac\u201c4:12: reprise the arrival weight shift and shoulder roll with more confidence, staying centered."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "4:12\u00e2\u20ac\u201c4:24: reprise the foundation side-step and heel-toe pattern, with clean full-body timing."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "4:24\u00e2\u20ac\u201c4:36: reprise the travel phrase in miniature: one diagonal step, one controlled turn, then return front."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "4:36\u00e2\u20ac\u201c4:48: make one broad but natural forearm sweep, then bring the energy gently down while holding stable identity."
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+          "prompt": "4:48\u00e2\u20ac\u201c5:00: complete the performance with two grounded steps, hands at ease, a modest smile, and a calm full-body final stance."
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ]
+}

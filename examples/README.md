@@ -1,0 +1,1 @@
+The dance plan uses an original fictional adult performer. Upload the included reference or your own licensed endpoints and correct the input paths before validation. Start with two clips. Frame timing depends on the connected model; H3 can snap requested durations to a supported frame count. The full template has not passed creative acceptance.

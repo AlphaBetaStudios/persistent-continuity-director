@@ -1,0 +1,137 @@
+{
+  "job_id": "0920da0d455d409eb9fc5c6f78fe8a95",
+  "status": "paused",
+  "error": "Continuity gate requires review before this clip can become the next checkpoint.",
+  "clips": [
+    {
+      "id": "s01-c001",
+      "status": "completed",
+      "receipt": {
+        "job_id": "0920da0d455d409eb9fc5c6f78fe8a95",
+        "attempt_id": "s01-c001-bccb0487adce46b2940ae5045497f362",
+        "first_frame": "alpha_scene_director/0920da0d455d409eb9fc5c6f78fe8a95/s01-c001-bccb0487adce46b2940ae5045497f362_first.png",
+        "last_frame": "alpha_scene_director/0920da0d455d409eb9fc5c6f78fe8a95/s01-c001-bccb0487adce46b2940ae5045497f362_last.png",
+        "frame_count": 56,
+        "width": 480,
+        "height": 864
+      },
+      "gate_report": {
+        "policy": {
+          "min_face_similarity": 0.3,
+          "min_boundary_similarity": 0.3,
+          "max_blur": null,
+          "max_attempts": 2,
+          "version": "source-domain-v0"
+        },
+        "attempt_number": 1,
+        "measurements": {
+          "artifact_ok": true,
+          "face_detected": true,
+          "full_body_visible": true,
+          "face_similarity": 0.3249723116024092,
+          "boundary_similarity": 0.6462474078906054
+        },
+        "reasons": [],
+        "decision": "accepted"
+      }
+    },
+    {
+      "id": "s01-c002",
+      "status": "completed",
+      "receipt": {
+        "job_id": "0920da0d455d409eb9fc5c6f78fe8a95",
+        "attempt_id": "s01-c002-d18e8f7345294730816430a2396339fa",
+        "first_frame": "alpha_scene_director/0920da0d455d409eb9fc5c6f78fe8a95/s01-c002-d18e8f7345294730816430a2396339fa_first.png",
+        "last_frame": "alpha_scene_director/0920da0d455d409eb9fc5c6f78fe8a95/s01-c002-d18e8f7345294730816430a2396339fa_last.png",
+        "frame_count": 56,
+        "width": 480,
+        "height": 864
+      },
+      "gate_report": {
+        "policy": {
+          "min_face_similarity": 0.3,
+          "min_boundary_similarity": 0.3,
+          "max_blur": null,
+          "max_attempts": 2,
+          "version": "source-domain-v0"
+        },
+        "attempt_number": 1,
+        "measurements": {
+          "artifact_ok": true,
+          "face_detected": true,
+          "full_body_visible": true,
+          "face_similarity": 0.32952335575839287,
+          "boundary_similarity": 0.9233097966607441
+        },
+        "reasons": [],
+        "decision": "accepted"
+      }
+    },
+    {
+      "id": "s01-c003",
+      "status": "completed",
+      "receipt": {
+        "job_id": "0920da0d455d409eb9fc5c6f78fe8a95",
+        "attempt_id": "s01-c003-70294c04546e45f5bb312e0b5f90454d",
+        "first_frame": "alpha_scene_director/0920da0d455d409eb9fc5c6f78fe8a95/s01-c003-70294c04546e45f5bb312e0b5f90454d_first.png",
+        "last_frame": "alpha_scene_director/0920da0d455d409eb9fc5c6f78fe8a95/s01-c003-70294c04546e45f5bb312e0b5f90454d_last.png",
+        "frame_count": 56,
+        "width": 480,
+        "height": 864
+      },
+      "gate_report": {
+        "policy": {
+          "min_face_similarity": 0.3,
+          "min_boundary_similarity": 0.3,
+          "max_blur": null,
+          "max_attempts": 2,
+          "version": "source-domain-v0"
+        },
+        "attempt_number": 1,
+        "measurements": {
+          "artifact_ok": true,
+          "face_detected": true,
+          "full_body_visible": true,
+          "face_similarity": 0.30686704333503395,
+          "boundary_similarity": 0.9205185092878884
+        },
+        "reasons": [],
+        "decision": "accepted"
+      }
+    },
+    {
+      "id": "s01-c004",
+      "status": "manual_review",
+      "receipt": {
+        "job_id": "0920da0d455d409eb9fc5c6f78fe8a95",
+        "attempt_id": "s01-c004-a781f18c3da74f6b95ea2f10a5e0b693",
+        "first_frame": "alpha_scene_director/0920da0d455d409eb9fc5c6f78fe8a95/s01-c004-a781f18c3da74f6b95ea2f10a5e0b693_first.png",
+        "last_frame": "alpha_scene_director/0920da0d455d409eb9fc5c6f78fe8a95/s01-c004-a781f18c3da74f6b95ea2f10a5e0b693_last.png",
+        "frame_count": 56,
+        "width": 480,
+        "height": 864
+      },
+      "gate_report": {
+        "policy": {
+          "min_face_similarity": 0.3,
+          "min_boundary_similarity": 0.3,
+          "max_blur": null,
+          "max_attempts": 2,
+          "version": "source-domain-v0"
+        },
+        "attempt_number": 2,
+        "measurements": {
+          "artifact_ok": true,
+          "face_detected": true,
+          "full_body_visible": true,
+          "face_similarity": 0.29055593957995973,
+          "boundary_similarity": 0.9292224099549568
+        },
+        "reasons": [
+          "face_similarity_below_threshold"
+        ],
+        "decision": "manual_review"
+      }
+    }
+  ]
+}
